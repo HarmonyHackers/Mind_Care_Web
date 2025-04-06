@@ -1,5 +1,4 @@
-/* Base Reset */
-* {
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,14 +10,13 @@ body {
   color: #333;
 }
 
-/* Container */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Navigation */
+
 .navbar {
   background-color: #F2F2F7;
 }
@@ -94,7 +92,6 @@ body {
   object-fit: cover;
 }
 
-/* Features Intro Section */
 .features-intro {
   background-color: #F2F2F7;
   padding: 2rem 0;
@@ -161,14 +158,12 @@ body {
   color: #555;
 }
 
-/* Cards Grid */
 .amounts-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-/* Individual Cards */
 .amount-card {
   background-color: #eee;
   padding: 0.75rem 1rem;
@@ -177,7 +172,6 @@ body {
   cursor: default;
 }
 
-/* Phone Mockup Image */
 .phone-preview img {
   width: 100%;
   max-width: 400px;
@@ -185,7 +179,6 @@ body {
   margin: 0 auto;
 }
 
-/* Section container styling */
 .motto-section {
   position: relative;
   display: flex;
@@ -197,7 +190,6 @@ body {
   min-height: 400px;
 }
 
-/* Overlay for soft background effect */
 .motto-section::before {
   content: "";
   position: absolute;
@@ -209,7 +201,6 @@ body {
   z-index: 1;
 }
 
-/* Content container */
 .motto-content {
   position: relative;
   z-index: 2;
@@ -286,7 +277,6 @@ body {
   color: #777;
 }
 
-/* Social icons styling */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -319,9 +309,6 @@ body {
 }
 
 
-/* Responsive Design (Media Queries) */
-
-/* For tablets and smaller desktops */
 @media (max-width: 991px) {
 
   .hero-content,
