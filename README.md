@@ -8,7 +8,7 @@ Mind Care Landing Page
 
 ## Website link 👇
 
-[Mind Care Website](https://yourwebsite.com)
+[Mind Care Website](https://mindcare-gsc.netlify.app/)
 
 
 
